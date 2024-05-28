@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         sharedPreferences = this.getSharedPreferences("com.example.kullancadsaklama", Context.MODE_PRIVATE)
 
         val veri = findViewById<EditText>(R.id.editText_Veri)
-        val kaydet = findViewById<Button>(R.id.button_Kaydet)
+        val kaydet = findViewById<Button>(R.id.button_kaydet)
         val textView_a: TextView = findViewById(R.id.textView_a)
         val button_sil : Button = findViewById(R.id.button_sil)
 

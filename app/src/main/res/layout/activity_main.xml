@@ -11,7 +11,7 @@
         android:layout_width="250dp"
         android:layout_height="110dp"
         android:ems="10"
-        android:hint="Veri Giriniz"
+        android:hint="verigiriniz"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,10 +20,10 @@
         app:layout_constraintVertical_bias="0.223" />
 
     <Button
-        android:id="@+id/button_Kaydet"
+        android:id="@+id/button_kaydet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="kaydetClick"
+
         android:text="Kaydet"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_sil"
@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="81dp"
-        android:onClick="silClick"
+
         android:text="Sil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
